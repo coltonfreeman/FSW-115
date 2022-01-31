@@ -1,0 +1,60 @@
+
+{
+    "appetizers": [{
+            "name": "Shrimp Scampi",
+            "ingredients": ["Shrimp", "Butter", "Garlic", "Parsley","White Wine"],
+            "description": "Shrimp Scampi with a butter garlic sauce."
+        },
+        {
+            "name": "Buffalo Chicken Wings",
+            "ingredients": ["Chicken Wings", "Butter", "Garlic Powder", "Red Hot Sauce"],
+            "description": "Blazen Hot Buffalo Chicken Wings with Celery and Carrorts."
+        }
+        
+    ],
+    "cold sandwiches": [{
+            "name": "Stephanie Cold Cut",
+            "ingredients": ["Ham", "Salami","Honey Mustard", "Smokey Cheddar", "Fresh Spinach", "Pepperocini", "Sourdough Bread"],
+            "description": "Ham and Salami Sandwich."
+        },
+        {
+            "name": "Turkey Club Sandwich",
+            "ingredients": ["Turkey", "Avocados", "Provolone Cheese", "Oninons","Spicy Mustard", "Fresh Spinach","Whole Wheat Bread"],
+            "description": "Turkey Avocado Sandwich ."
+        }
+        
+    ],
+    "hot sandwiches": [{
+            "name": "Smoked Pulled Pork Sandwich",
+            "ingredients": ["Smoked Pork Butt", "BBQ Sauce", "Lobster Roll"],
+            "description": "Smoked Pork  on a Lobster Roll Topped with House BBQ Sauce."
+        },
+        {
+            "name": "Grilled Chicken Breast Sandwich ",
+            "ingredients": ["Grilled Chicken Breast", "Sourdough Bread", "Povolone Cheese", "Tomato", "Red Onion", "Spicy Mustuard"],
+            "description": "Grilled Chicken Breast with Provolne Cheese sandwich on a grill sourdough bun."
+        }
+    ],
+    "desserts": [{
+            "name": "Peach Cobbler",
+            "ingredients": ["Peaches", "All-Purpose Flour", "Sugar", "Baking Powder", "Milk"],
+            "description": "Southern Peach Cobbler with Your Choice in Toppings"
+        },
+        {
+            "name": "Lemon Cheesecakw",
+            "ingredients": ["Honey Graham Crackers", "Brown Sugar", "Butter", "Lemon Gelatin","Cream Cheese","Lemon Juice","Lemon Zest","Vanilla Extract"],
+            "description": "No Bake Lemon Cheesecake Bars"
+        }
+    ],
+    "drinks": [{
+            "name": "Black Tea Blaster",
+            "ingredients": ["Organic Black Tea", "Organic Honey", "Purified Water"],
+            "description": "Best Drink to Help You Wake UP."
+        },
+        {
+            "name": "Ginger Lemon Tea",
+            "ingredients": ["Fresh Ginger", "Fresh Lemons", "Organic Honey", "Purified Water"],
+            "description": "Immunity Booster."
+        }
+    ]
+}
