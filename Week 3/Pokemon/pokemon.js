@@ -21,7 +21,7 @@ xhr.onreadystatechange = function() {
 }
 
 function displayData(data) {
-    data.forEach(function(element, index) {
+    data.forEach(function(_element, index) {
         let newEntry = document.createElement("h2");
         newEntry.textContent = data[index].name;
         document.body.appendChild(newEntry);
@@ -45,7 +45,7 @@ function displayData(data) {
         }
 
         function displayDetails(data) {
-            data.forEach(function(element, index) {
+            data.forEach(function(_element, index) {
                 let newListEntry = document.createElement("li");
                 newListEntry.textContent = data[index].type.name;
                 newList.appendChild(newListEntry);
