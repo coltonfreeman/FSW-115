@@ -41,7 +41,7 @@ function createToDo(data) {
         deleteButton.addEventListener('click', (e) => {
             let toDelete = e.target.parentNode;
             axios.delete(`http://api.bryanuniversity.edu/coltonfreemn/list/${toDelete.id}`)
-                .then(_res => getData())
+                .then(res => getData())
                 .catch(err => console.log(err))
         });
         updateButton.addEventListener('click', (e) => {
@@ -81,7 +81,7 @@ function createToDo(data) {
         todoForm.description.value = "";
 
         axios.post(`http://api.bryanuniversity.edu/coltonfreeman/list`, newTodo)
-            .then(_res => getData())
+            .then(res => getData())
             .catch(err => console.log(err))
     });
     //PUT Data
